@@ -1,38 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Boilerplate com NextJS 13
+Olá! Bem vindo ao meu GitHub, dev! Caso você tenha alguma dúvida sobre o repositório, é só chamar no meu LinkedIn (o link está no final da página) e farei o possível para ajudar:smile: ! 
 
-## Getting Started
+<br />
+:computer: Este é um repositório com as minhas configurações padrões para projetos em NextJS 13
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+<br />
+<br />
+
+## Tecnologias utilizadas
+As configurações iniciais deste projeto incluem:
+- [NextJS](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com/)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://github.com/typicode/husky)
+- [Dependabot](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file)
+- [Github actions](https://docs.github.com/pt/actions)
+
+<br />
+
+## Rodando localmente
+Requer [Node.js](https://nodejs.org/) v16+ e yarn para rodar.
+Abra seu terminal favorito e rode estes comandos.
+
+```sh
+$ yarn install
+$ yarn dev
 ```
+  
+<br/>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Commandos
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- `dev`: roda a aplicação em `localhost:3000`
+- `build`: cria o build de produção
+- `start`: inicia um servidor com o build de produção
+- `lint`: roda o eslint em toda a aplicação
+- `test`: roda os testes da aplicação
+- `test:watch`: roda os testes em watch mode
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<br />
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## License
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Uso livre!!**
 
-## Learn More
+<br/>
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Me siga no linked-in :smile: [Camille](https://www.linkedin.com/in/camille-gachido-b4809b1a4/)
